@@ -15,11 +15,13 @@ The commands I currently support are:
 /pause - pause the audio stream
 /resume - resume the audio stream
 /skip - skip the current audio stream
-/stop - clear the queue and remove the userbot from the call`,
+/stop - clear the queue and remove the userbot from the call
+
+Please Join Support Group`,
     {
       reply_markup: new InlineKeyboard()
-        .url("🔈 Channel", "https://t.me/callsmusic")
-        .url("Group 💬", "https://t.me/callsmusicchat"),
+        .url("🔈 Channel", "https://t.me/EvolutionBotSupport")
+        .url("Group 💬", "https://t.me/EvolutionBot"),
     }
   );
 });
